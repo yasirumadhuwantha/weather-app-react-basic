@@ -1,7 +1,7 @@
 const Home = () => {
   return (
-    <div>
-      Home
+    <div className="flex flex-col items-center px-4 py-8">
+      <h1 className="text-2xl text-white font-semibold">Sri Lankan City Weather Report</h1>
     </div>
   );
 };
