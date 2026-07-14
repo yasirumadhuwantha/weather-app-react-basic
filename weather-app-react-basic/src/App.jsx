@@ -1,10 +1,17 @@
+import Navbar from "./components/common/Navbar.jsx";
+import { Route, Routes } from "react-router";
+import Home from "./components/Home/Home.jsx";
+
 const App = () => {
-
   return (
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-  )
-}
+    <div>
+      <Navbar/>
 
-export default App
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+    </div>
+  );
+};
+
+export default App;
