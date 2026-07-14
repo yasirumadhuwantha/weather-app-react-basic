@@ -1,26 +1,28 @@
 export const WEATHER_DATA = {
   anuradhapura: {
-    city: "Anuradhapura",
+    cityName: "Anuradhapura",
     temperature: 31,
     humidity: 78,
     windSpeed: 14,
   },
   colombo: {
-    city: "Colombo",
+    cityName: "Colombo",
     temperature: 34,
     humidity: 58,
     windSpeed: 34,
   },
   kandy: {
-    city: "Kandy",
+    cityName: "Kandy",
     temperature: 21,
     humidity: 88,
     windSpeed: 54,
   },
   jaffna: {
-    city: "Jaffna",
+    cityName: "Jaffna",
     temperature: 35,
     humidity: 78,
     windSpeed: 14,
   },
 };
+
+export const AVAILABLE_CITY = Object.values(WEATHER_DATA).map((city) => city.cityName);
