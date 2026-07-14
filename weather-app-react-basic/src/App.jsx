@@ -1,6 +1,7 @@
 import Navbar from "./components/common/Navbar.jsx";
 import { Route, Routes } from "react-router";
 import Home from "./components/Home/Home.jsx";
+import About from "./components/about/About.jsx";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<About/>}/>
       </Routes>
     </div>
   );
