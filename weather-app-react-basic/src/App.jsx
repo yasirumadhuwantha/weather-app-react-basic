@@ -4,7 +4,7 @@ import Home from "./components/Home/Home.jsx";
 
 const App = () => {
   return (
-    <div>
+    <div className="min-h-screen bg-linear-to-br from-blue-500 to-indigo-700">
       <Navbar/>
 
       <Routes>
